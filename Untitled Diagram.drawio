@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" modified="2021-09-06T02:58:38.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="u3IN0kANxRSZJcIlmjxr" version="15.0.6" type="github">
+  <diagram id="xaLPYDXsd6TYU1fDOlBP" name="Page-1">
+    <mxGraphModel dx="1209" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-2" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oSNU9R3x4BIs3kX_1ieM-3" target="oSNU9R3x4BIs3kX_1ieM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-17" value="6. Send the http request to LB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" vertex="1" connectable="0" parent="oSNU9R3x4BIs3kX_1ieM-16">
+          <mxGeometry x="-0.2598" y="1" relative="1" as="geometry">
+            <mxPoint x="21" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-3" value="1. input google.com&lt;br&gt;2. Add http:// or https:// to the beginning&lt;br&gt;&lt;br&gt;5. Pick up the first addrs, establish a TCP connection and create an HTTP request" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
+          <mxGeometry x="340" y="78" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/CDN_Profiles.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-7" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="780" y="274" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="oSNU9R3x4BIs3kX_1ieM-3" target="oSNU9R3x4BIs3kX_1ieM-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="250" as="sourcePoint" />
+            <mxPoint x="200" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-9" value="3. Request for IP addr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oSNU9R3x4BIs3kX_1ieM-8">
+          <mxGeometry x="0.2039" y="2" relative="1" as="geometry">
+            <mxPoint x="-13" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-13" value="" style="endArrow=classic;html=1;exitX=0.469;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.029;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oSNU9R3x4BIs3kX_1ieM-5" target="oSNU9R3x4BIs3kX_1ieM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="340" as="sourcePoint" />
+            <mxPoint x="270" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-14" value="4. Return a list of addrs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oSNU9R3x4BIs3kX_1ieM-13">
+          <mxGeometry x="0.2283" relative="1" as="geometry">
+            <mxPoint x="26" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="214" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-19" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="oSNU9R3x4BIs3kX_1ieM-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="240" as="sourcePoint" />
+            <mxPoint x="569" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-20" value="7. Assign the request to a CDN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oSNU9R3x4BIs3kX_1ieM-19">
+          <mxGeometry x="0.3133" y="-2" relative="1" as="geometry">
+            <mxPoint x="-61" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-26" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.99;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oSNU9R3x4BIs3kX_1ieM-6" target="oSNU9R3x4BIs3kX_1ieM-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="260" as="sourcePoint" />
+            <mxPoint x="720" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-27" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/CDN_Profiles.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="274" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-28" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/CDN_Profiles.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="330" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-30" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1.025;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oSNU9R3x4BIs3kX_1ieM-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688" y="374" as="sourcePoint" />
+            <mxPoint x="780" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-31" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688" y="298.5" as="sourcePoint" />
+            <mxPoint x="780" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-32" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oSNU9R3x4BIs3kX_1ieM-28" target="oSNU9R3x4BIs3kX_1ieM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="320" as="sourcePoint" />
+            <mxPoint x="270" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oSNU9R3x4BIs3kX_1ieM-33" value="8. Return the HTTP response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oSNU9R3x4BIs3kX_1ieM-32">
+          <mxGeometry x="0.0502" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
