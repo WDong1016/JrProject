@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T05:48:12.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="awNaDttbUYelstdgpFse" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T06:17:38.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="U_GOul0MCdjh6G5qZiK6" version="17.5.0" type="github">
   <diagram id="ce1GtgoNdSxTXqw0j8kx" name="Page-1">
     <mxGraphModel dx="1298" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -320,13 +320,13 @@
         <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-1" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.internet_hollow;labelBackgroundColor=#FFF4C3;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="120" y="870" width="129.03" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-4" value="VLAN 2000&lt;br&gt;10.1.100.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-4" value="VLAN 2000&lt;br&gt;10.1.100.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=14;fontColor=#990000;" vertex="1" parent="1">
           <mxGeometry x="120" y="910" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-5" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.internet_hollow;labelBackgroundColor=#FFF4C3;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="550" y="870" width="129.03" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-6" value="VLAN 2001&lt;br&gt;10.1.101.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-6" value="VLAN 2001&lt;br&gt;10.1.101.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;fontColor=#003366;" vertex="1" parent="1">
           <mxGeometry x="550" y="910" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-7" value="SW101" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_switch;fillColor=#FAFAFA;strokeColor=#005073;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
@@ -341,7 +341,7 @@
             <mxPoint x="260" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-16" value="VLAN2001&lt;br&gt;.2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="TDHP-WZ_9Jo_Nsl-w6er-9">
+        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-16" value="VLAN2001&lt;br&gt;.2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#003366;" vertex="1" connectable="0" parent="TDHP-WZ_9Jo_Nsl-w6er-9">
           <mxGeometry x="-0.7883" y="-1" relative="1" as="geometry">
             <mxPoint x="14" y="4" as="offset" />
           </mxGeometry>
@@ -358,12 +358,12 @@
             <mxPoint x="230.77" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-15" value="VLAN 2000&lt;br&gt;.2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="TDHP-WZ_9Jo_Nsl-w6er-11">
+        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-15" value="VLAN 2000&lt;br&gt;.2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#990000;" vertex="1" connectable="0" parent="TDHP-WZ_9Jo_Nsl-w6er-11">
           <mxGeometry x="-0.2923" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-17" value="VLAN 2000&lt;br&gt;.3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="TDHP-WZ_9Jo_Nsl-w6er-11">
+        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-17" value="VLAN 2000&lt;br&gt;.3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=default;fontColor=#990000;" vertex="1" connectable="0" parent="TDHP-WZ_9Jo_Nsl-w6er-11">
           <mxGeometry x="-0.2923" y="-1" relative="1" as="geometry">
             <mxPoint x="353" y="36" as="offset" />
           </mxGeometry>
@@ -374,7 +374,7 @@
             <mxPoint x="440" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-20" value="VLAN2001&lt;br&gt;.3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="TDHP-WZ_9Jo_Nsl-w6er-14">
+        <mxCell id="TDHP-WZ_9Jo_Nsl-w6er-20" value="VLAN2001&lt;br&gt;.3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=default;fontColor=#003366;" vertex="1" connectable="0" parent="TDHP-WZ_9Jo_Nsl-w6er-14">
           <mxGeometry x="-0.4417" relative="1" as="geometry">
             <mxPoint y="5" as="offset" />
           </mxGeometry>
